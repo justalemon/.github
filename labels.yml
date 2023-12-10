@@ -20,6 +20,8 @@ rename:
 
   - current: "priority: p4 not aplicable"
     target: "priority: p4 not applicable"
+  - current: "status: 3rd party issue"
+    target: "status: blocked"
 
 custom:
   - name: "priority: p0 critical"
@@ -51,7 +53,7 @@ custom:
     color: "#0e8a16"
   - name: "status: won't fix"
     color: "#0053C0"
-  - name: "status: 3rd party issue"
+  - name: "status: blocked"
     color: "#0053C0"
 
   - name: "type: bug"
