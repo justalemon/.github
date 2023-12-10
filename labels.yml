@@ -1,4 +1,23 @@
 rename:
+  - current: "bug"
+    target: "type: bug"
+  - current: "documentation"
+    target: "type: documentation"
+  - current: "duplicate"
+    target: ""
+  - current: "enhancement"
+    target: "type: feature request"
+  - current: "good first issue"
+    target: ""
+  - current: "help wanted"
+    target: "status: help wanted"
+  - current: "invalid"
+    target: "status: invalid"
+  - current: "question"
+    target: "type: question"
+  - current: "wontfix"
+    target: "status: won't fix"
+
   - current: "priority: p4 not aplicable"
     target: "priority: p4 not applicable"
 
