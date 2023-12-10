@@ -1,0 +1,46 @@
+name: Bug Report
+description: Found a bug? This is the way to report it!
+labels:
+  - "priority: p4 not applicable"
+  - "status: acknowledged"
+  - "type: bug"
+
+body:
+  - type: markdown
+    attributes: 
+      value: |
+        Thanks for making a bug report!
+        Please note that not all of the questions are necessary, but is highly recommended that you fill all of them so the problem can be diagnosed and patched quickly.
+  - type: input
+    validations:
+      required: true
+    attributes:
+      label: What version are you using?
+      description: This can be a stable version (X.X.X), git commit (3d9d430) or GitHub Actions Build ID (12345).
+      placeholder: Something like 1.0.0.
+  - type: textarea
+    validations:
+      required: true
+    attributes: 
+      label: What were you trying to do?
+      placeholder: For example, "I was trying to enter the mission vehicle".
+  - type: textarea
+    validations:
+      required: true
+    attributes: 
+      label: What were you expecting to happen?
+      placeholder: For example, "I get into the driver seat of the vehicle".
+  - type: textarea
+    validations:
+      required: true
+    attributes: 
+      label: What actually happened?
+      placeholder: For example, "The vehicle was locked and I couldn't get in".
+  - type: textarea
+    attributes: 
+      label: What are your system specifications?
+      placeholder: Your processor, graphics card, RAM, etc.
+  - type: textarea
+    attributes: 
+      label: Anything else you might want to add?
+      placeholder: All information is welcome here!
