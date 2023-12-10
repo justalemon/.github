@@ -1,0 +1,33 @@
+name: Feature Request
+description: Do you have an idea in mind? Suggest it here!
+labels:
+  - "priority: p4 not applicable"
+  - "status: acknowledged"
+  - "type: feature request"
+
+body:
+  - type: markdown
+    attributes: 
+      value: |
+        Thanks your mod idea!
+        Sadly, I don't have time to implement all mod ideas, but I do take a look at all of them.
+  - type: textarea
+    validations:
+      required: true
+    attributes: 
+      label: What idea do you have in mind?
+      placeholder: For example, "I would like to be able to do X".
+  - type: textarea
+    validations:
+      required: true
+    attributes: 
+      label: What would be the purpose of this feature?
+      placeholder: For example, "I would like this feature because it would help with Y".
+  - type: textarea
+    attributes: 
+      label: How would this feature be implemented?
+      placeholder: If you are a developer, how to implement said feature.
+  - type: textarea
+    attributes: 
+      label: Anything else you might want to add?
+      placeholder: All information is welcome here!
