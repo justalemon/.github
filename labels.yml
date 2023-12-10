@@ -22,6 +22,8 @@ rename:
     target: "priority: p4 not applicable"
   - current: "status: 3rd party issue"
     target: "status: blocked"
+  - current: "status: needs triage"
+    target: "priority: p5 needs triage"
 
 custom:
   - name: "priority: p0 critical"
@@ -33,6 +35,8 @@ custom:
   - name: "priority: p3 low"
     color: "#FF7F00"
   - name: "priority: p4 not applicable"
+    color: "#FF7F00"
+  - name: "priority: p5 needs triage"
     color: "#FF7F00"
 
   - name: "status: acknowledged"
@@ -48,8 +52,6 @@ custom:
   - name: "status: invalid"
     color: "#0053C0"
   - name: "status: needs info"
-    color: "#0053C0"
-  - name: "status: needs triage"
     color: "#0053C0"
   - name: "status: ready to merge"
     color: "#0e8a16"
