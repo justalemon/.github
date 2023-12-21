@@ -17,10 +17,17 @@ rename:
     target: "type: question"
   - current: "wontfix"
     target: "status: won't fix"
-
+  - current: "status: wont fix"
+    target: "status: won't fix"
+  - current: "dependencies"
+    target: "type: dependencies"
+  - current: "status: ready to merge"
+    delete: true
   - current: "priority: p4 not aplicable"
     target: "priority: p4 not applicable"
   - current: "status: 3rd party issue"
+    target: "status: blocked"
+  - current: "status: 3rd party problem"
     target: "status: blocked"
   - current: "status: needs triage"
     target: "priority: p5 needs triage"
