@@ -8,7 +8,7 @@ rename:
   - current: "enhancement"
     target: "type: feature request"
   - current: "good first issue"
-    target: ""
+    delete: true
   - current: "help wanted"
     target: "status: help wanted"
   - current: "invalid"
