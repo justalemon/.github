@@ -1,0 +1,18 @@
+name: Update Labels
+on:
+  push:
+    paths:
+      - labels.yml
+      - .github/workflows/labels.yml
+  schedule:
+    - cron: "11 13 * * 3"
+
+jobs: 
+  update:
+    runs-on: ubuntu-22.04
+    steps:
+      - uses: actions/checkout@v4.1.1
+      - uses: actions/setup-python@v5.0.0
+        with:
+          python-version: "3.11"
+      - run: python labels.py
