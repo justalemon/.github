@@ -1,3 +1,11 @@
+owners:
+  - name: justalemon
+    is_org: false
+    token: LEMON_TOKEN
+  - name: LemonUIbyLemon
+    is_org: true
+    token: LEMONUI_TOKEN
+
 updates:
   - current: "bug"
     target: "type: bug"
