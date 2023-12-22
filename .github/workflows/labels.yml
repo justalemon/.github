@@ -17,3 +17,6 @@ jobs:
           python-version: "3.11"
       - run: pip install -r requirements.txt
       - run: python labels.py
+        env:
+          LEMON_TOKEN: ${{ secrets.LEMON_TOKEN }}
+          LEMONUI_TOKEN: ${{ secrets.LEMONUI_TOKEN }}
